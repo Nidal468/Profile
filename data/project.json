@@ -1,0 +1,74 @@
+[
+	{
+		"id":"1",
+		"title":"Game server hoster", 
+		"info":"Here you can host a server and play with your friends and it's really easy to understand and use", 
+		"skill_1":"Next JS", 
+		"skill_2":"React JS", 
+		"skill_3":"Typescript", 
+		"skill_4":"Zerotier" 
+	}, 
+	{
+		"id":"2",
+		"title":"Game server hoster", 
+		"info":"Here you can host a server and play with your friends and it's really easy to understand and use", 
+		"skill_1":"Next JS", 
+		"skill_2":"React JS", 
+		"skill_3":"Typescript", 
+		"skill_4":"Zerotier" 
+	}, 
+	{
+			"id":"3",
+		"title":"Game server hoster", 
+		"info":"Here you can host a server and play with your friends and it's really easy to understand and use", 
+		"skill_1":"Next JS", 
+		"skill_2":"React JS", 
+		"skill_3":"Typescript", 
+		"skill_4":"Zerotier" 
+	}, 
+	{
+			"id":"4",
+		"title":"Game server hoster", 
+		"info":"Here you can host a server and play with your friends and it's really easy to understand and use", 
+		"skill_1":"Next JS", 
+		"skill_2":"React JS", 
+		"skill_3":"Typescript", 
+		"skill_4":"Zerotier" 
+	}, 
+	{
+		"id":"5",
+		"title":"Game server hoster", 
+		"info":"Here you can host a server and play with your friends and it's really easy to understand and use", 
+		"skill_1":"Next JS", 
+		"skill_2":"React JS", 
+		"skill_3":"Typescript", 
+		"skill_4":"Zerotier" 
+	}, 
+	{
+		"id":"6",
+		"title":"Game server hoster", 
+		"info":"Here you can host a server and play with your friends and it's really easy to understand and use", 
+		"skill_1":"Next JS", 
+		"skill_2":"React JS", 
+		"skill_3":"Typescript", 
+		"skill_4":"Zerotier" 
+	}, 
+	{
+		"id":"7",
+		"title":"Game server hoster", 
+		"info":"Here you can host a server and play with your friends and it's really easy to understand and use", 
+		"skill_1":"Next JS", 
+		"skill_2":"React JS", 
+		"skill_3":"Typescript", 
+		"skill_4":"Zerotier" 
+	}, 
+	{
+		"id":"8",
+		"title":"Game server hoster", 
+		"info":"Here you can host a server and play with your friends and it's really easy to understand and use", 
+		"skill_1":"Next JS", 
+		"skill_2":"React JS", 
+		"skill_3":"Typescript", 
+		"skill_4":"Zerotier" 
+	}
+]
