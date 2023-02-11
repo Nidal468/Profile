@@ -1,11 +1,13 @@
 import home from '../styles/Home.module.css'
 import data from '../data/data.json';
 import projects from '../data/project.json';
+import {Nav} from './components/basic';
 
 export default function Home() {
   return (
     <div className={home. 
 		container}>
+			<Nav/>
 			<div className={home.home_bg}>
 				<span id={home.left}>
 					<h1>Abu Saleh</h1>
@@ -54,7 +56,8 @@ export default function Home() {
 				})}
 			</div>
 			<footer className={home.footer}>
-				
+				<p></p>
+				<img/>
 			</footer>
 		</div>
   )
