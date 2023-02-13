@@ -1,12 +1,31 @@
-import home from '../styles/Home.module.css'
+import {home} from '../styles/style'
 import data from '../data/data.json';
+import {useState, useEffect} from 'react';
 import projects from '../data/project.json';
-import {Nav} from './components/basic';
+import {Nav, Loading} from './components/basic';
 
 export default function Home() {
+	const [runCount, setRunCount] = useState(0);
+const [isDisplay, setIsDisplay] = useState(false);
+
+useEffect(() => {
+  if (runCount >= 1) {
+    return;
+  }
+
+  const interval = setInterval(() => {
+    setIsDisplay(current => !current);
+    setRunCount(runCount + 1);
+  }, 4000);
+
+  return () => clearInterval(interval);
+});
+
   return (
+		<>
+			<Loading display={isDisplay? "none":"flex"}/> 
     <div className={home. 
-		container}>
+		container} style={{display : isDisplay? "block" :"none"}}>
 			<Nav/>
 			<div className={home.home_bg}>
 				<span id={home.left}>
@@ -60,5 +79,6 @@ export default function Home() {
 				<img/>
 			</footer>
 		</div>
+		</>
   )
-}
+};

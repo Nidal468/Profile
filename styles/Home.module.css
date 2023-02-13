@@ -1,7 +1,7 @@
 .container{
 	width: 100%;
 	background: #e3edf7;
-	
+	display: none;
 }
 .home_bg{
 	width: 100%;
@@ -9,6 +9,7 @@
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
+	
 	
 }
 #left{
